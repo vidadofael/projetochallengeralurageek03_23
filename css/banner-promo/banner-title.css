@@ -1,0 +1,105 @@
+.banner a {
+    background-color: var(--cor-botao);
+    color: white;
+    padding: 1rem;
+    
+    border: var(--cor-botao);
+    text-decoration: none;
+}
+
+.banner__title {
+    position: absolute;
+    color: white;  
+    cursor: pointer;
+}
+
+.banner__title a {
+    transition: .3s ease-in-out;
+}
+
+.banner__title a:hover {
+    color: var(--cor-botao);
+    background-color: white;
+}
+
+
+
+
+
+
+@media screen and (min-width: 0) {
+    .banner__title {
+        font-size: 5px;
+        left: 7%;
+        top: 20%;
+    }
+    .banner__title p {
+        font-size: 10px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .banner__title a {
+        padding: .2rem;
+    }
+}
+
+@media screen and (min-width: 386px) {
+    .banner__title {
+        
+        left: 7%;
+        top: 20%;
+    }
+    .banner__title p {
+        font-size: 12px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .banner__title h1 {
+        font-size: 20px;
+    }
+    .banner__title a {
+        padding: .3rem;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .banner__title {
+        left: 10%;
+        top: 40%;
+    }
+    .banner__title p {
+        font-size: 12px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+}
+@media screen and (min-width: 772px) {
+    .banner__title {
+        top: 27%;
+        left: 14.5%;
+    }
+    
+    .banner__title h1 {
+        font-size: 50px;
+    }
+    .banner__title p {
+        font-size: 25px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .banner__title a {
+        padding: .8rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .banner__title {
+        top: 40%;
+        left: 14.5%;
+    }
+}
+
+
+
+
+

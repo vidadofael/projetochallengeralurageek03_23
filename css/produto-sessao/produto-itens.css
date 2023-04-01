@@ -1,0 +1,24 @@
+.produto__itens {
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    transition: .2s ease-in-out;
+  }
+  
+  .produto__itens:hover {
+    border-radius: 20px;
+  }
+    
+  .produto__itens:first-child {
+      margin-left: 0;
+  }
+  
+  .produto__itens img {
+      max-width: 100%;
+  }
+    
+  .produto__itens:hover {
+    transform: scale(1.001);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 2px 5px 10px rgb(209, 209, 209);
+    border: 1px;
+  }

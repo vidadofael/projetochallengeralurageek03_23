@@ -1,0 +1,13 @@
+.topo__botaoLogin {
+    background-color: white;
+    border: 1px solid var(--cor-botao);
+    color: var(--cor-botao);
+    padding: .5rem 3rem .5rem 3rem;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.topo__botaoLogin:hover {
+    background-color: var(--cor-botao);
+    color: white;
+}

@@ -1,0 +1,47 @@
+
+
+
+.contato {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border: 1px solid red;
+}
+
+.contato__imgLogo {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+}
+
+
+.contato__listaIntitucional li {
+  display: flex;
+  margin-bottom: 25px;
+  flex: 1 0 auto;
+  border: 1px solid red;
+}
+
+
+.contato__form {
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 550px;
+}
+
+
+
+.contato__form button {
+  width: 30%;
+  background-color: var(--cor-botao);
+  border: none;
+  color: white;
+  padding: .5rem;
+  margin-top: 10px;
+}
+
+.contato__form h3 {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,29 @@
+.produto__link--verTudo {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  color: var(--cor-botao);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.produto__link img {
+  padding-left: 0.5rem;
+  cursor: pointer;
+}
+
+.produto__link img:hover {
+animation: move 1s ease-in-out infinite;
+}
+
+@keyframes move {
+0% {
+  transform: translateX(0);
+}
+50% {
+  transform: translateX(10px);
+}
+100% {
+  transform: translateX(0);
+}
+}

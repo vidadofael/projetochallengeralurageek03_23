@@ -1,0 +1,42 @@
+.topo__busca {
+    display: flex;
+    align-items: center;
+    padding-right: .5rem;
+    border-radius: 100px;
+
+}
+
+.topo__busca input {
+    border: none;
+    background-color: rgb(235, 235, 236);
+    padding: .5rem;
+    width: 250px;
+    border-radius: 100px;
+}
+
+@media screen and (min-width: 0) {
+    .topo__busca {
+        background-color: white;
+    }
+    .topo__busca input {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 386px) {
+    .topo__busca input {
+        background-color: rgb(235, 235, 236);
+        display: flex;
+        align-items: center;
+        padding-right: .5rem;
+        border-radius: 100px;
+    }
+    .topo__busca {
+        background-color: rgb(235, 235, 236);
+        display: flex;
+        align-items: center;
+        padding-right: .5rem;
+        border-radius: 100px;
+    }
+    
+}

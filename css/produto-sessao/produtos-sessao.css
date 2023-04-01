@@ -1,0 +1,11 @@
+@media screen and (min-width: 0) {
+    .produto__sessao {
+        padding: 1rem 2rem 1rem 5rem;
+    }
+}
+
+@media screen and (min-width: 386px) {
+    .produto__sessao {
+        padding: 2rem 5rem 1rem 5rem;
+    }
+}

@@ -1,0 +1,15 @@
+.contato {
+    background-color: var(--cor-fundo-escuro);
+}
+
+@media screen and (min-width: 0) {
+    .contato {
+        padding: 1rem 2rem 1rem 5rem;
+    }
+}
+
+@media screen and (min-width: 386px) {
+    .contato {
+        padding: 2rem 5rem 1rem 5rem;
+    }
+}

@@ -1,0 +1,21 @@
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 0) {
+    .topo {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 772px) {
+    .topo {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 1rem;
+    }
+}

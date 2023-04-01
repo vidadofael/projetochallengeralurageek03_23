@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/teste.css">
+    <link rel="stylesheet" href="./css/cores/cores.css">
+    <link rel="stylesheet" href="./css/reset-normalize/normalize.css">
+    <link rel="stylesheet" href="./css/reset-normalize/reset.css">
+    <link rel="stylesheet" href="./css/topo/topo-botao-login.css">
+    <link rel="stylesheet" href="./css/topo/topo-busca.css">
+    <link rel="stylesheet" href="./css/topo/topo-logo.css">
+    <link rel="stylesheet" href="./css/topo/topo-logoBusca.css">
+    <link rel="stylesheet" href="./css/topo/topo.css">
+    
+    <link rel="stylesheet" href="./css/banner-promo/banner.css">
+    <link rel="stylesheet" href="./css/banner-promo/banner-title.css">
+
+    <link rel="stylesheet" href="./css/produto-sessao/produtos-sessao.css">
+    <link rel="stylesheet" href="./css/produto-sessao/produtos-title.css">
+    <link rel="stylesheet" href="./css/produto-sessao/produto-link-verTudo.css">
+    <link rel="stylesheet" href="./css/produto-sessao/produto-grupo.css">
+    <link rel="stylesheet" href="./css/produto-sessao/nome-produto.css">
+    <link rel="stylesheet" href="./css/produto-sessao/produto-preco-item.css">
+    <link rel="stylesheet" href="./css/produto-sessao/produto-lista.css">
+    <link rel="stylesheet" href="./css/produto-sessao/produto-itens.css">
+
+    <link rel="stylesheet" href="./css/contato/contato.css">
+    <link rel="stylesheet" href="./css/contato/contato-img-logo.css">
+    <link rel="stylesheet" href="./css/contato/contato-institucional.css">
+    <link rel="stylesheet" href="./css/contato/contato-itens.css">
+
+    <link rel="stylesheet" href="./css/contato/contato-form/contato-botao-enviar.css">
+    <link rel="stylesheet" href="./css/contato/contato-form/contato-campo-mensagem.css">
+    <link rel="stylesheet" href="./css/contato/contato-form/contato-form.css">
+    <link rel="stylesheet" href="./css/contato/contato-form/contato-nome.css">
+
+
+
+    <title>Home | AluraGeek</title>
+</head>
+<body>
+    
+    <header id="topoSection" class="topo">
+        <div class="topo__logoBusca">
+            <div class="topo__logo">
+                <img src="./assets/joystick.png" alt="logo AluraGeek">
+                <img src="./assets/AluraGeek-nome-logo.png" alt="logo AluraGeek">
+                <img src="./assets/AluraGeek-nome-logo2.png" alt="logo AluraGeek">
+            </div>
+            <div class="topo__busca">
+                <label for="busca"></label>
+                <input type="text" placeholder="busque seu produto">
+                <img src="./assets/lupa.png" alt="lupa para busca de produtos">
+            </div>
+        </div>
+        <button id="botaoParaLogin" class="topo__botaoLogin">Login </button>
+    </header>
+
+    <section class="banner">
+        <img class="banner__img" src="./assets/banner-image.png" alt="baner imagem">
+        <div class="banner__title">
+            <h1>
+                Dezembro Promocional
+            </h1>
+            <p>
+                Produtos selecionados com 33% de desconto
+            </p>
+            <a href="#consoles">Ver Consoles</a>
+        </div>
+    </section>
+
+
+
+    <section class="produto__sessao">
+        
+        <div class="produto__tituloSessao">
+            <div class="produto__grupo">
+                <h2>Star Wars</h2>
+                <div class="produto__link">
+                  <button id="verTudo" class="produto__link--verTudo">Ver tudo</button>
+                  <img src="./assets/seta_ver-tudo.png" alt="">
+                </div>
+              </div>
+
+            
+            
+
+            <ul id="lista-produtos" class="produto__lista" data-listaProduto>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+
+                <li class="produto__itens hidden" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="produto__sessao">
+        
+        <div class="produto__tituloSessao">
+            <div class="produto__grupo">
+                <h2 id="consoles">Consoles</h2>
+                <div class="produto__link">
+                  <button id="verTudo" class="produto__link--verTudo">Ver tudo</button>
+                  <img src="./assets/seta_ver-tudo.png" alt="">
+                </div>
+              </div>
+
+            
+            
+
+            <ul id="lista-produtos" class="produto__lista" data-listaProduto>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+
+                <li class="produto__itens hidden" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="produto__sessao">
+        
+        <div class="produto__tituloSessao">
+            <div class="produto__grupo">
+                <h2>Diversos</h2>
+                <div class="produto__link">
+                  <button id="verTudo" class="produto__link--verTudo">Ver tudo</button>
+                  <img src="./assets/seta_ver-tudo.png" alt="">
+                </div>
+              </div>
+
+            
+            
+
+            <ul id="lista-produtos" class="produto__lista" data-listaProduto>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+                <li class="produto__itens" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+
+
+                <li class="produto__itens hidden" data-itemProduto>
+                    <img src="./assets/imagens-produtos/itens-loja-starwars/item-01.png" alt="caneca">
+                    <h3 class="nome__produto" id="nomeProduto">
+                        Caneca StarWars
+                    </h3>
+                    <div class="produtos__precoItem">
+                        <div class="produto__preco" id="preco">
+                            <del class="produto__precoUnitario" id="precoUnitario">
+                                R$ 99,90
+                            </del>
+                        </div>
+                        <div class="produto__item--precoReal">
+                            <p class="produto__preco--gatilho">
+                                R$ 69,90
+                            </p>
+                            <span class="produto__desconto">-20%</span>
+                        </div>
+                    </div>
+                    <p class="produto__verProduto">Ver produto</p>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="contato">
+        
+        <div class="contato__imgLogo">
+            <img src="./assets/joystick.png" alt="logo AluraGeek">
+            <img src="./assets/AluraGeek-nome-logo.png" alt="logo AluraGeek">
+            <img src="./assets/AluraGeek-nome-logo2.png" alt="logo AluraGeek">
+        </div>
+        <ul class="contato__listaIntitucional">
+            <li class="contato__itens">Quem somos nós</li>
+            <li class="contato__itens">Política de privacidade</li>
+            <li class="contato__itens">Programa fidelidade</li>
+            <li class="contato__itens">Nossas Lojas</li>
+            <li class="contato__itens">Quero ser franqueado</li>
+            <li class="contato__itens">Anuncie aqui</li>
+        </ul>
+        <form class="contato__form">
+            <h3>
+                Fale conosco
+            </h3>
+            <div class="contato__inputNome">
+                <input class="contato__nome" type="text" placeholder="Nome" required>
+                <span>Nome</span>
+            </div>
+
+            <div class="contato__inputEmail">
+                <input class="email" type="email" placeholder="Email" required>
+                <span>Email</span>
+            </div>
+            
+            <div class="contato__inputNome">
+                <textarea class="contato__campoMsg" name="mensagem" id="contato__msg" cols="30" rows="10" placeholder="Escreva sua mensagem" required></textarea>
+                <span>Escreva sua mensagem</span>
+            </div>
+            <button class="contato__botaoEnviar">Enviar mensagem</button>
+        </form>
+    </section>
+    
+
+</body>
+<script src="./validacao/ir-para-login.js"></script>
+<script src="./validacao/ver-tudo.js"></script>
+
+</html>

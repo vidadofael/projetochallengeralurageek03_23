@@ -1,0 +1,21 @@
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+responsividade modelo:
+@media screen and (min-width: 0) {
+    
+}
+
+@media screen and (min-width: 386px) {
+    
+}
+
+@media screen and (min-width: 772px) {
+    
+}
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+O hidden é marcado no id dos itens somente aos que eu quero esconder!!
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
