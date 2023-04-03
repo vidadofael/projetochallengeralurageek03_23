@@ -1,0 +1,11 @@
+.contato__listaIntitucional li {
+    display: flex;
+    margin-bottom: 54px;
+    flex: 1 0 auto;
+  }
+  
+  .contato__listaIntitucional a {
+    text-decoration: none;
+    color: #464646;
+    font-weight: 500;
+  }

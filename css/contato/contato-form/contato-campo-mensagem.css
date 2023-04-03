@@ -1,0 +1,15 @@
+.app__form textarea {
+    width: 100%;
+    outline: none;
+    resize: none;
+    border: none;
+    padding: 1.2rem;
+}
+
+.contato__input { /*div*/
+  margin-bottom: 1rem;
+  position: relative;
+  
+}
+
+  

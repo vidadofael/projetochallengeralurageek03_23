@@ -1,0 +1,5 @@
+.contato__imgLogo {
+    display: flex;
+    align-items: last baseline;
+    padding-bottom: 2rem;
+}

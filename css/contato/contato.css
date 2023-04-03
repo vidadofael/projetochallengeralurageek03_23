@@ -1,6 +1,20 @@
 .contato {
     background-color: var(--cor-fundo-escuro);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; 
 }
+
+.contato__form {
+    width: 65%;
+  }
+  
+  
+  .contato__form h3 {
+    margin-bottom: 5px;
+  }
+
+
 
 @media screen and (min-width: 0) {
     .contato {

@@ -1,0 +1,14 @@
+.contato__form button {
+    width: 50%;
+    background-color: var(--cor-botao);
+    border: none;
+    color: white;
+    padding: .5rem;
+    margin-top: 10px;
+    transition: .3s ease-in-out;
+  }
+  
+  .contato__form button:hover {
+    background-color: white;
+    color: var(--cor-botao);
+  }
