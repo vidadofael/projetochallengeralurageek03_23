@@ -51,13 +51,33 @@
     </header>
 
 
-    <section>
+    <section class="form__Produto">
         <h1>
             Adicionar novo produto
         </h1>
 
-        <form action="">
-            
+        <form class="form__novoProduto">
+            <div class="form__inputNovoProduto">
+                <input type="text" name="url__foto" id="utlFoto" required>
+                <span>URL da imagem</span>
+            </div>
+            <div class="form__inputNovoProduto">
+                <input type="text" name="url__foto" id="categoria" required>
+                <span>Categoria</span>
+            </div>
+            <div class="form__inputNovoProduto">
+                <input type="text" name="url__foto" id="nome" required>
+                <span>Nome do Produto</span>
+            </div>
+            <div class="form__inputNovoProduto">
+                <input type="number" name="url__foto" id="preco" min="0" step="0.01" required>
+                <span>Preço do Produto</span>
+            </div>
+            <div class="form__inputNovoProduto">
+                <input type="text" name="url__foto" id="" required>
+                <span>Descrição do Produto</span>
+            </div>
+            <button>Adicionar Produto</button>
         </form>
     </section>
 
