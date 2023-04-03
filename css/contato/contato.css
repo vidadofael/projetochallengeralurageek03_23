@@ -4,12 +4,40 @@
 
 @media screen and (min-width: 0) {
     .contato {
-        padding: 1rem 2rem 1rem 5rem;
+        padding: 1rem 1rem .5rem 1rem;
+        flex-direction: column;
+    }
+    .contato__form{
+        padding: .1rem;
+        width: 60%;
+        align-items: flex-start;
+        margin: 0;
     }
 }
 
 @media screen and (min-width: 386px) {
     .contato {
-        padding: 2rem 5rem 1rem 5rem;
+        padding: 1.5rem 2rem 1.5rem 2rem;
+        
+    }
+}
+
+@media screen and (min-width: 772px) {
+    .contato {
+        flex-direction: row;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    .contato__listaIntitucional {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .contato__form {
+        max-width: 50%;
+      }
+}
+
+@media screen and (min-width: 850px) {
+    .contato {
+        padding: 2rem 5rem 2rem 5rem;
     }
 }
