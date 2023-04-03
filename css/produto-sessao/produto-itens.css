@@ -22,3 +22,7 @@
     box-shadow: 2px 5px 10px rgb(209, 209, 209);
     border: 1px;
   }
+
+  .hidden {
+    display: none;
+  }
