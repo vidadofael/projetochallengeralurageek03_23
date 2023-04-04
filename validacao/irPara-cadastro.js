@@ -2,4 +2,3 @@ document.getElementById("botao__voltarCadastro").addEventListener("click", funct
     event.preventDefault();
     window.location.href = "../telas/cadastro-produto.html";
 });
-  

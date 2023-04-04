@@ -1,29 +1,23 @@
 {
-    "produtos": [
-      {
-        "id": 1,
-        "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRIXTvAwbpyPyB6MSi29JwFQ0aq_6i-psnSnnufM5WPiH1K8GUR_k5UjR10r_TPGUSy9xS61FqA7Rg_WkEOnpSzHglm-de6wLKi9cJlWVzR&usqp=CAE",
-        "nome": "Boneco Hulk",
-        "preco": 299.89,
-        "categoria": "Marvel",
-        "descricao": "Boneco para crianças e decoração"
-      },
-      {
-        "id": 2,
-        "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRIXTvAwbpyPyB6MSi29JwFQ0aq_6i-psnSnnufM5WPiH1K8GUR_k5UjR10r_TPGUSy9xS61FqA7Rg_WkEOnpSzHglm-de6wLKi9cJlWVzR&usqp=CAE",
-        "nome": "Boneco Hulk",
-        "preco": 269.89,
-        "categoria": "Marvel",
-        "descricao": "Boneco para crianças e decoração"
-      },
-      {
-        "id": 3,
-        "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRIXTvAwbpyPyB6MSi29JwFQ0aq_6i-psnSnnufM5WPiH1K8GUR_k5UjR10r_TPGUSy9xS61FqA7Rg_WkEOnpSzHglm-de6wLKi9cJlWVzR&usqp=CAE",
-        "nome": "Boneco Hulk",
-        "preco": 229.89,
-        "categoria": "Marvel",
-        "descricao": "Boneco para crianças e decoração"
-      }
-    ]
+  "produtos": [
+    {
+      "id": 1,
+      "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRnqWsJpItSB7bJUA4ZCQyBumQ-23wVPIIn4qffHf-8euUS9oL7SllSNyhEFs5FfWkisZc-XTeSHWYiIiFh6KOel8y0LnNW6eCxRaEB2fzd0EjdlXuSTxy9Pw&usqp=CAE",
+      "nome": "Homem de ferro",
+      "preco": "5.99"
+    },
+    {
+      "id": 2,
+      "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRnqWsJpItSB7bJUA4ZCQyBumQ-23wVPIIn4qffHf-8euUS9oL7SllSNyhEFs5FfWkisZc-XTeSHWYiIiFh6KOel8y0LnNW6eCxRaEB2fzd0EjdlXuSTxy9Pw&usqp=CAE",
+      "nome": "Homem de ferro",
+      "preco": "5.99"
+    },
+    {
+      "id": 3,
+      "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRnqWsJpItSB7bJUA4ZCQyBumQ-23wVPIIn4qffHf-8euUS9oL7SllSNyhEFs5FfWkisZc-XTeSHWYiIiFh6KOel8y0LnNW6eCxRaEB2fzd0EjdlXuSTxy9Pw&usqp=CAE",
+      "nome": "Homem de ferro",
+      "preco": "5.99"
+    } 
+  ]
 }
   

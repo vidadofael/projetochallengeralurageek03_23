@@ -60,27 +60,23 @@
             Adicionar novo produto
         </h1>
     
-        <form class="form__novoProduto app-form"> <!--app-form-->
+        <form class="form__novoProduto app-form" data-form> <!--app-form-->
             <div class="form__inputNovoProduto form-group"> <!--form-group-->
-                <input type="text" name="url__foto" id="urlFoto" required>
+                <input type="text" name="url__foto" id="urlFoto" required data-imagem>
                 <span>URL da imagem</span>
                 <p id="mensagemUrl" style="display: none;"></p>
             </div>
             <div class="form__inputNovoProduto form-group">
-                <input type="text" name="nome" id="nome" required>
+                <input type="text" name="nome" id="nome" required data-nome>
                 <span>Nome do Produto</span>
                 <p id="mensagemNome" style="display: none;"></p>
             </div>
             <div class="form__inputNovoProduto form-group">
-                <input type="number" name="preco" id="preco" min="0" step="0.01" required>
+                <input type="number" name="preco" id="preco" min="0" step="0.01" required data-preco>
                 <span>Preço do Produto</span>
                 <p id="mensagemPreco" style="display: none;"></p>
             </div>
-            <div class="form__inputNovoProdutoform-group form-group">
-                <input type="text" name="descricao" id="descricao" required>
-                <span>Descrição do Produto</span>
-                <p id="mensagemDescricao" style="display: none;"></p>
-            </div>
+            
             <button id="adicionarProduto">Adicionar Produto</button>
         </form>
     </section>
@@ -141,6 +137,7 @@
         
     </footer>
 </body>
+<script type="module" src="../controller/cadastra-produto-controller.js"></script>
 <script src="../validacao/validacao-cadastro-produtos.js"></script>
 <script src="../validacao/irParaHome.js"></script>
 </html>

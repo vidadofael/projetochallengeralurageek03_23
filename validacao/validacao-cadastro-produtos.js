@@ -25,7 +25,6 @@ document.getElementById("adicionarProduto").addEventListener("click", function (
   const urlFoto = document.getElementById("urlFoto").value;
   const nome = document.getElementById("nome").value;
   const preco = document.getElementById("preco").value;
-  const descricao = document.getElementById("descricao").value;
 
   let isValid = true;
 
@@ -47,13 +46,6 @@ document.getElementById("adicionarProduto").addEventListener("click", function (
     document.getElementById("mensagemPreco").style.display = "none";
   } else {
     mostrarMensagem("mensagemPreco", "Preencha corretamente este campo.", "red");
-    isValid = false;
-  }
-
-  if (isValidText(descricao)) {
-    document.getElementById("mensagemDescricao").style.display = "none";
-  } else {
-    mostrarMensagem("mensagemDescricao", "Preencha corretamente este campo.", "red");
     isValid = false;
   }
 

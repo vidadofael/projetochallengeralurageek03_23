@@ -21,6 +21,8 @@
   color: white;
   padding: .5rem;
   transition: .3s ease-in-out;
+  text-decoration: none;
+  list-style: none;
 }
 
 .btnAdicionar:hover {
