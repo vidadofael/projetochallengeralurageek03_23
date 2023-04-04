@@ -44,7 +44,7 @@
   align-items: center;
   align-content: center;
   margin: 0 auto;
-  padding: 1rem 5rem 1rem 5rem;
+  
   
 }
 
@@ -73,4 +73,9 @@
 .gestao__infoProdutos a:hover {
   color: var(--cor-botao);
   font-weight: 500;
+}
+
+.gestao__itensProdutos img {
+  max-width: 150px;
+
 }
