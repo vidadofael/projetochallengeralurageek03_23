@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
@@ -11,34 +12,35 @@
     <link rel="stylesheet" href="../css/cores/cores.css">
     <link rel="stylesheet" href="../css/reset-normalize/normalize.css">
     <link rel="stylesheet" href="../css/reset-normalize/reset.css">
+
     <link rel="stylesheet" href="../css/topo/topo-busca.css">
     <link rel="stylesheet" href="../css/topo/topo-logo.css">
     <link rel="stylesheet" href="../css/topo/topo-logoBusca.css">
     <link rel="stylesheet" href="../css/topo/topo.css">
 
-    <link rel="stylesheet" href="../css/contato/contato.css">
-    <link rel="stylesheet" href="../css/contato/contato-img-logo.css">
-    <link rel="stylesheet" href="../css/contato/contato-institucional.css">
-    <link rel="stylesheet" href="../css/contato/contato-itens.css">
+    
 
     <link rel="stylesheet" href="../css/contato/contato-form/contato-botao-enviar.css">
     <link rel="stylesheet" href="../css/contato/contato-form/contato-campo-mensagem.css">
-    <link rel="stylesheet" href="../css/contato/contato-form/contato-form.css">
-    <link rel="stylesheet" href="../css/contato/contato-form/contato-nome.css">
-
-    <link rel="stylesheet" href="../css/login/formLogin.css">
-
+    <link rel="stylesheet" href="../css/contato/contato-img-logo.css">
+    <link rel="stylesheet" href="../css/contato/contato-institucional.css">
+    <link rel="stylesheet" href="../css/contato/contato-itens.css">
+    <link rel="stylesheet" href="../css/contato/contato.css">
     <link rel="stylesheet" href="../css/contato/app-form.css">
 
+    <link rel="stylesheet" href="../css/sucesso-produto/sucesso-produto.css">
+
     <link rel="stylesheet" href="../css/rodape/rodape.css">
-
-    <title>Login | AluraGeek</title>
-
+    
+    
+    
+    
+    <title>Produto cadastrado | AluraGeek</title>
 </head>
 <body>
     <header id="topoSection" class="topo">
         <div class="topo__logoBusca">
-            <div class="topo__logo" id="irParaHome" style="cursor: pointer;">
+            <div class="topo__logo">
                 <img src="../assets/joystick.png" alt="logo AluraGeek">
                 <img src="../assets/AluraGeek-nome-logo.png" alt="logo AluraGeek">
                 <img src="../assets/AluraGeek-nome-logo2.png" alt="logo AluraGeek">
@@ -53,26 +55,13 @@
     </header>
 
 
-    <section class="formLogin">
-        <form action="" class="form__login">
-            <h3>
-                Iniciar Sessão
-            </h3>
-            <div class="form-groupLogin">
-                <input type="email" name="email" required>
-                <span>Email</span>
-                <div id="mensagemEmail" style="font-size: 10px; display: none; color: red;"></div>
-            </div>
-            <div class="form-groupLogin">
-                <input type="password" name="senha" required>
-                <span>Senha</span>
-                <div id="mensagemSenha" style="font-size: 10px; display: none; color: red;"></div>
-            </div>
-            <button type="button" id="botaoEntrar">Entrar</button>
-        </form>
+
+    <section class="sucesso__cadastroProduto">
+        <img src="../assets/icons8-ok-48.png" alt="icone cadastro ok">
+        <h2>Cadastro de produto realizado com sucesso!</h2>
+        <button id="botao__voltarCadastro">Voltar ao cadastro</button>
     </section>
 
-    
 
 
     <section class="contato">
@@ -109,7 +98,7 @@
                 <textarea class="contato__campoMsg" name="mensagem" id="contato__msg"rows="7" cols="30" rows="10" required></textarea>
                 <span>Escreva sua mensagem</span>
             </div>
-            <button class="contato__botaoEnviar">Enviar mensagem</button>
+            <button type="button" class="contato__botaoEnviar">Enviar mensagem</button>
         </form>
     </section>
     
@@ -126,8 +115,12 @@
         </p>
         
     </footer>
-    
+
+
+
+
+
 </body>
-<script src="../validacao/validacao-login.js"></script>
+<script src="../validacao/irPara-cadastro.js"></script>
 <script src="../validacao/irParaHome.js"></script>
 </html>
